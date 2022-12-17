@@ -1,3 +1,4 @@
+/* selector */
 h1 {
   color: green;
 }
@@ -7,6 +8,7 @@ p {
   font-family: sans-serif;
 }
 
+/* declarations */
 p {
   font-size: small;
   font-family: sans-serif;
@@ -21,6 +23,7 @@ h1 {
   margin: 2 em; /* Deklarasi tidak akan berfungsi karena terdapat spasi antara nilai dan satuan */
 }
 
+/* css comments */
 p {
   font-size: small;
   font-family: sans-serif;
