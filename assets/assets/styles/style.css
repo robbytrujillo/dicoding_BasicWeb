@@ -17,3 +17,26 @@ footer {
   color: white;
   background-color: #00a2c6;
 }
+
+/* Menetapkan ukuran pada gambar */
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+
+  /* Gambar yang ditampilkan jadi memenuhi lebar jendela browser */
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Atur juga ukuran gambar logo kota Bandung */
+.profile img {
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
+  padding: 20px;
+  margin-top: 20px;
+}
