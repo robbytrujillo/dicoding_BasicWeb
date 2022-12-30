@@ -1,7 +1,10 @@
 /* Menulis Rules pada Berkas CSS */
 /* <body> */
 body {
-  font-family: sans-serif;
+  font-family: "Quicksand", sans-serif;
+  /* Menyesuaikan Padding dan Margin pada body dan elemen */
+  margin: 0;
+  padding: 0;
 }
 /* <h2> & <h3> */
 h2 {
@@ -39,4 +42,55 @@ footer {
 
   padding: 20px;
   margin-top: 20px;
+}
+
+.jumbotron {
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.first {
+  background-color: #60d0a8;
+}
+
+.second {
+  background-color: #6495ed;
+  /* margin-top: 20px; */
+  position: relative;
+  top: 30px;
+   left: 10px;
+}
+
+.third {
+  background-color: #ffa500;
 }
