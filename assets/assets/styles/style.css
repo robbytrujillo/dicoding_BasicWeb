@@ -115,7 +115,7 @@ main {
   box-sizing: border-box;
 }
 
-//menentukan layar tertentu
+//Menetapkan rules pada Ukuran Layar Tertentu
 /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
 @media screen and (max-width: 992px) {
   /* ..... */
