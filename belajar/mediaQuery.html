@@ -5,8 +5,30 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Media Query</title>
+        <style>
+            /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 992px */
+@media screen and (max-width: 992px) {
+  /* ..... */
+}
+ 
+/* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 600px */
+@media screen and (max-width: 600px) {
+  /* ..... */
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+        </style>
     </head>
     <body>
-        
+        <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            minima iure ab eaque hic nihil temporibus molestias dicta rerum
+            facere minus nobis, quo voluptatem et, quasi voluptates veniam at
+            expedita!</aside>
     </body>
 </html>
