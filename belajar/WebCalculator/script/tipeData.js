@@ -54,3 +54,42 @@ console.log(typeof(greet))
 
 /* output: string */
 
+//4. Boolean
+let e = true;
+let f = false;
+
+console.log(typeof(e))
+console.log(typeof(f))
+
+/* output: 
+boolean
+boolean
+*/
+
+//atau
+const g = 10;
+const h = 12;
+
+let isGreater = g > h;
+let isLess = g < h;
+
+console.log(isGreater);
+console.log(isLess);
+
+/* output: 
+false
+true
+*/
+
+//5. Null
+let someLaterData = null;
+console.log(someLaterData);
+
+/* output:
+null
+*/
+
+let i; // i merupakan undefined
+i = 1 // sekarang i merupakan number
+i = true // sekarang i merupakan boolean
+i = "Harry" // sesekarang i merupakan string
