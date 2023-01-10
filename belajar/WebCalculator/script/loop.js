@@ -23,9 +23,9 @@ Hermione
 Tom
 */
 
-let myArray = ["Harry", "Ron", "Hermione", "Tom"];
+let myArray1 = ["Harry", "Ron", "Hermione", "Tom"];
 
-for(const arrayItem of myArray) {
+for(const arrayItem of myArray1) {
     console.log(arrayItem)
 }
 
