@@ -1,5 +1,5 @@
-console.log("Selamat Anda berhasil menggunakan JavaScript pada Website");
-alert("Terimakasih.");
+//console.log("Selamat Anda berhasil menggunakan JavaScript pada Website");
+//alert("Terimakasih.");
 
 const calculator = {
     displayNumber: '0', 
@@ -24,7 +24,6 @@ function inputDigit(digit) {
 }
 
 const buttons = document.querySelectorAll('.button');
-
 for (const button of buttons) {
     button.addEventListener('click', function (event) {
         //mendapatkan objek elemen yang diklik
@@ -34,4 +33,5 @@ for (const button of buttons) {
         updateDisplay();
     });
 }
+
 
